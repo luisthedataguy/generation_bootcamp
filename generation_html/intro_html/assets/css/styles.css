@@ -1,0 +1,11 @@
+p {
+  color: red;
+}
+
+.saludo {
+  color: greenyellow;
+}
+
+.negritas {
+  font-weight: bold;
+}
