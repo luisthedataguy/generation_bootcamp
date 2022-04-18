@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Avanzado</title>
+</head>
+
+<body>
+
+  <style>
+    table,
+    tr,
+    td,
+    th {
+      border: 1px solid black;
+    }
+
+
+    table {
+      border-collapse: collapse;
+    }
+  </style>
+  <nav>
+    <ul>
+      <li><a href="#">Tablas</a>
+      </li>
+    </ul>
+  </nav>
+
+  <h2 id="tablas">Tablas</h2>
+  <table>
+    <!--Cabecera de la pagina-->
+    <thead>
+      <!--Crear una fila-->
+      <tr>
+        <th>Cabecera</th>
+        <th>Cabecera</th>
+        <th>Cabecera</th>
+
+      </tr>
+
+    </thead>
+    <!--Cuerpo de la pagina-->
+    <tbody>
+
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>G</td>
+        <td colspan="2">H</td>
+      </tr>
+      <tr>
+        <td>I</td>
+
+      </tr>
+    </tbody>
+
+    <!--Pie de la pagina-->
+    <tfoot>
+      <tr>
+        <td>Total</td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <br>
+
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="4">hdjhdjkdjdjhdj
+
+        </th>
+      </tr>
+      <tr>
+        <th>Year</th>
+        <th>Pianist</th>
+        <th>Label</th>
+        <th>Ref</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1997</td>
+        <td>Konstantain Scherbakov</td>
+        <td>Naxos Records</td>
+        <td>68</td>
+      </tr>
+      <tr>
+        <td>2000</td>
+        <td>Konstantain Scherbakov</td>
+        <td>Naxos Records</td>
+        <td>68</td>
+      </tr>
+      <tr>
+        <td>2006</td>
+        <td>Konstantain Scherbakov</td>
+        <td>Naxos Records</td>
+        <td>68</td>
+      </tr>
+      <tr>
+        <td>1997</td>
+        <td>Konstantain Scherbakov</td>
+        <td>Naxos Records</td>
+        <td>68</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2>Tabla de cenldas extendidas</h2>
+
+  <table>
+
+
+    <tbody>
+      <tr>
+        <td colspan="4">
+          alfa
+        </td>
+        <td>bravo</td>
+        <td rowspan="2">Chalie</td>
+      </tr>
+      <tr>
+        <td>delta</td>
+        <td colspan="2">echo</td>
+        <td>foxtror</td>
+        <td>golf</td>
+      </tr>
+      <tr>
+        <td>hotel</td>
+        <td colspan="4" rowspan="2">india</td>
+        <td>juliet</td>
+      </tr>
+      <tr>
+        <td>kilo</td>
+        <td>lima</td>
+      </tr>
+      <tr>
+        <td>mike</td>
+        <td colspan="2">november</td>
+        <td>oscar</td>
+        <td>papa</td>
+        <td>quebec</td>
+      </tr>
+
+
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+</body>
+
+</html>
