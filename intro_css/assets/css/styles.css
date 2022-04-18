@@ -1,0 +1,57 @@
+/* Selector universal */
+
+/*Selectore de etiqueta*/
+
+/*Elemento HTML*/
+
+.cuadro {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.color {
+  background-color: blue;
+}
+
+.color {
+  background-color: aquamarine;
+}
+
+.color {
+  background-color: blueviolet;
+}
+
+/*Selector de id*/
+
+#forma {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 3);
+}
+
+.color-texto {
+  color: rgb(0, 0, 1608);
+  background-color: crimson;
+}
+
+.forma {
+  width: 300px;
+  height: 100px;
+}
+
+.borde {
+  border: 3px solid black;
+  border-top: 3px solid green;
+  border-bottom: ;
+  border-left: ;
+  text-align: center;
+  line-height: 100px;
+}
+
+p {
+  font-family: cursive;
+  font-size: smaller;
+}
