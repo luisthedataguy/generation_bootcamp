@@ -1,0 +1,35 @@
+* {
+  background-color: #7bfbd3;
+}
+
+h1 {
+  text-align: center;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+span {
+  color: orangered;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orangered;
+}
+
+.yellow_letter {
+  color: yellow;
+}
