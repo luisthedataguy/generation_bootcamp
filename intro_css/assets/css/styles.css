@@ -45,8 +45,7 @@
 .borde {
   border: 3px solid black;
   border-top: 3px solid green;
-  border-bottom: ;
-  border-left: ;
+
   text-align: center;
   line-height: 100px;
 }
